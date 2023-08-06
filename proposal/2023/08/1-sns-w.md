@@ -1,4 +1,4 @@
-# EMC - Enable principal htsl7-baaaa-aaaam-ablva-cai in SNS-W to initiate the generation of an SNS for EMC
+# Enable principal htsl7-baaaa-aaaam-ablva-cai in SNS-W to initiate the generation of an SNS for EMC
 
 ## Summary
 
