@@ -1,10 +1,10 @@
-# Enable principal htsl7-baaaa-aaaam-ablva-cai in SNS-W to initiate the generation of an SNS for EMC
+# EMC - Enable principal htsl7-baaaa-aaaam-ablva-cai in SNS-W to initiate the generation of an SNS for EMC
 
 ## Summary
 
 The proposal offers EMC (EdgeMatrix Computing) network to the SNS to be turned into a decentralized service by the creation of an SNS to govern the EMC network canisters.
 
-## Why the Need for Resubmission?
+# Why the Need for Resubmission?
 
 We are very grateful to the community and the foundation for pointing out the mistakes and discrepancies in the mechanism design and parameter settings of our SNS proposal - as a result, we can now preemptively avoid any potential future troubles regarding the EMC DAO caused by any unfamiliarities with the SNS initialization. We appreciate these observations as support and assistance to the EMC project, and it enables the DAO to perform better in the future. 
 
@@ -16,7 +16,7 @@ With the assistance and feedback from the IC community and the DFINITY Foundatio
 
 ## Who sent this proposal?
 
-This proposal is sent by the EMC Foundation. EMC is an [**AI + Web3 ecosystem**](https://2heg6-2aaaa-aaaap-qbl3q-cai.icp0.io/) co-built by and for the community. It is a project that combines Web3 and AI that runs on the IC blockchain, with a decentralized GPU computing network, computing power marketplace, AI model marketplace, and computing power Real World Assets (RWA for short) and protocols as its core offerings. The project is presented in this [**whitepaper**](https://whitepaper.edgematrix.pro/en/), related technical docs can be found [**here**](https://manual.edgematrix.pro/) and tokenomics can be found [**here**](https://docs.google.com/spreadsheets/d/11nhpQ-FD5Mvmi-PMplouS3x2KHqBbfpfqEu145W_VxU/edit).
+This proposal is sent by the EMC Foundation. EMC is an [AI + Web3 ecosystem](https://edgematrix.pro/) co-built by and for the community. It is a project that combines Web3 and AI that runs on the IC blockchain, with a decentralized GPU computing network, computing power marketplace, AI model marketplace, and computing power Real World Assets (RWA for short) and protocols as its core offerings. The project is presented in this [whitepaper](https://whitepaper.edgematrix.pro/en/), related technical docs can be found [here](https://manual.edgematrix.pro/) and tokenomics can be found [here](https://docs.google.com/spreadsheets/d/11nhpQ-FD5Mvmi-PMplouS3x2KHqBbfpfqEu145W_VxU/edit).
 
 ## What is the purpose of this proposal?
 
