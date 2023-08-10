@@ -243,22 +243,1129 @@ initial_token_distribution:
     
     developer_distribution: # 10% in total
       developer_neurons:
-        - controller: 532qj-nepra-fzq3u-ierlp-zbalm-ykpaa-ji6um-qugze-mavbm-wmo2v-tae # DEV team neuron for making proposals.
-          stake_e8s: 200000000000 #2000 EMC which allows 20 in-flight proposals
+        - controller: 532qj-nepra-fzq3u-ierlp-zbalm-ykpaa-ji6um-qugze-mavbm-wmo2v-tae #dev team:allow Dev Team to submit 20 proposals in-flight(reject cos 50 for each)
+          stake_e8s: 200000000000
           memo: 0
           dissolve_delay_seconds: 31557600
           vesting_period_seconds: 0
 
-        - controller: ps3lp-stt34-ia4ib-jfdea-nlbiu-hnagy-plq6y-7iyvw-pg2yn-kxpp7-iqe # DEV team beacon neuron for community to follow
+        - controller: ps3lp-stt34-ia4ib-jfdea-nlbiu-hnagy-plq6y-7iyvw-pg2yn-kxpp7-iqe #dev team:DEV Team beacon neuron for communtity to follow
           stake_e8s: 100000000
           memo: 1
           dissolve_delay_seconds: 31557600
           vesting_period_seconds: 0
 
-        # TBD with neurons configuration
+        - controller: gt5x6-ailae-xfeu4-lep2i-kbttk-mlipu-hjcih-5eemp-v4az5-oze3e-nqe #Zed:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 2
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: gt5x6-ailae-xfeu4-lep2i-kbttk-mlipu-hjcih-5eemp-v4az5-oze3e-nqe #Zed:month 3 neuron
+          stake_e8s: 725000000000000
+          memo: 3
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: gt5x6-ailae-xfeu4-lep2i-kbttk-mlipu-hjcih-5eemp-v4az5-oze3e-nqe #Zed:month 6 neuron
+          stake_e8s: 725000000000000
+          memo: 4
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: gt5x6-ailae-xfeu4-lep2i-kbttk-mlipu-hjcih-5eemp-v4az5-oze3e-nqe #Zed:month 9 neuron
+          stake_e8s: 725000000000000
+          memo: 5
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: gt5x6-ailae-xfeu4-lep2i-kbttk-mlipu-hjcih-5eemp-v4az5-oze3e-nqe #Zed:month 12 neuron
+          stake_e8s: 725000000000000
+          memo: 6
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: gt5x6-ailae-xfeu4-lep2i-kbttk-mlipu-hjcih-5eemp-v4az5-oze3e-nqe #Zed:month 15 neuron
+          stake_e8s: 725000000000000
+          memo: 7
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: gt5x6-ailae-xfeu4-lep2i-kbttk-mlipu-hjcih-5eemp-v4az5-oze3e-nqe #Zed:month 18 neuron
+          stake_e8s: 725000000000000
+          memo: 8
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: gt5x6-ailae-xfeu4-lep2i-kbttk-mlipu-hjcih-5eemp-v4az5-oze3e-nqe #Zed:month 21 neuron
+          stake_e8s: 725000000000000
+          memo: 9
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: gt5x6-ailae-xfeu4-lep2i-kbttk-mlipu-hjcih-5eemp-v4az5-oze3e-nqe #Zed:month 24 neuron
+          stake_e8s: 725000000000000
+          memo: 10
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: c6lde-7lbiz-xzrr3-3lm4u-fgwkb-eod26-zg6rl-ck6vy-awpqe-atl3j-zae #Dai:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 11
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: c6lde-7lbiz-xzrr3-3lm4u-fgwkb-eod26-zg6rl-ck6vy-awpqe-atl3j-zae #Dai:month 3 neuron
+          stake_e8s: 62500000000000
+          memo: 12
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: c6lde-7lbiz-xzrr3-3lm4u-fgwkb-eod26-zg6rl-ck6vy-awpqe-atl3j-zae #Dai:month 6 neuron
+          stake_e8s: 62500000000000
+          memo: 13
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: c6lde-7lbiz-xzrr3-3lm4u-fgwkb-eod26-zg6rl-ck6vy-awpqe-atl3j-zae #Dai:month 9 neuron
+          stake_e8s: 62500000000000
+          memo: 14
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: c6lde-7lbiz-xzrr3-3lm4u-fgwkb-eod26-zg6rl-ck6vy-awpqe-atl3j-zae #Dai:month 12 neuron
+          stake_e8s: 62500000000000
+          memo: 15
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: c6lde-7lbiz-xzrr3-3lm4u-fgwkb-eod26-zg6rl-ck6vy-awpqe-atl3j-zae #Dai:month 15 neuron
+          stake_e8s: 62500000000000
+          memo: 16
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: c6lde-7lbiz-xzrr3-3lm4u-fgwkb-eod26-zg6rl-ck6vy-awpqe-atl3j-zae #Dai:month 18 neuron
+          stake_e8s: 62500000000000
+          memo: 17
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: c6lde-7lbiz-xzrr3-3lm4u-fgwkb-eod26-zg6rl-ck6vy-awpqe-atl3j-zae #Dai:month 21 neuron
+          stake_e8s: 62500000000000
+          memo: 18
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: c6lde-7lbiz-xzrr3-3lm4u-fgwkb-eod26-zg6rl-ck6vy-awpqe-atl3j-zae #Dai:month 24 neuron
+          stake_e8s: 62500000000000
+          memo: 19
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: 4txky-3sqda-guxtr-fjhph-mqkp7-crf26-qnmum-ac6nb-lb4eh-3be5z-nae #option pool:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 20
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: 4txky-3sqda-guxtr-fjhph-mqkp7-crf26-qnmum-ac6nb-lb4eh-3be5z-nae #option pool:month 3 neuron
+          stake_e8s: 11048200000000
+          memo: 21
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: 4txky-3sqda-guxtr-fjhph-mqkp7-crf26-qnmum-ac6nb-lb4eh-3be5z-nae #option pool:month 6 neuron
+          stake_e8s: 11250000000000
+          memo: 22
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: 4txky-3sqda-guxtr-fjhph-mqkp7-crf26-qnmum-ac6nb-lb4eh-3be5z-nae #option pool:month 9 neuron
+          stake_e8s: 11250000000000
+          memo: 23
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: 4txky-3sqda-guxtr-fjhph-mqkp7-crf26-qnmum-ac6nb-lb4eh-3be5z-nae #option pool:month 12 neuron
+          stake_e8s: 11250000000000
+          memo: 24
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: 4txky-3sqda-guxtr-fjhph-mqkp7-crf26-qnmum-ac6nb-lb4eh-3be5z-nae #option pool:month 15 neuron
+          stake_e8s: 11250000000000
+          memo: 25
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: 4txky-3sqda-guxtr-fjhph-mqkp7-crf26-qnmum-ac6nb-lb4eh-3be5z-nae #option pool:month 18 neuron
+          stake_e8s: 11250000000000
+          memo: 26
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: 4txky-3sqda-guxtr-fjhph-mqkp7-crf26-qnmum-ac6nb-lb4eh-3be5z-nae #option pool:month 21 neuron
+          stake_e8s: 11250000000000
+          memo: 27
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: 4txky-3sqda-guxtr-fjhph-mqkp7-crf26-qnmum-ac6nb-lb4eh-3be5z-nae #option pool:month 24 neuron
+          stake_e8s: 11250000000000
+          memo: 28
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: 64r27-dybyl-okym7-vhpgj-dasp4-jpywl-xafjr-l5b3v-odfoa-ya5al-dae #Brent:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 29
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: 64r27-dybyl-okym7-vhpgj-dasp4-jpywl-xafjr-l5b3v-odfoa-ya5al-dae #Brent:month 3 neuron
+          stake_e8s: 787500000000000
+          memo: 30
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: 64r27-dybyl-okym7-vhpgj-dasp4-jpywl-xafjr-l5b3v-odfoa-ya5al-dae #Brent:month 6 neuron
+          stake_e8s: 787500000000000
+          memo: 31
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: 64r27-dybyl-okym7-vhpgj-dasp4-jpywl-xafjr-l5b3v-odfoa-ya5al-dae #Brent:month 9 neuron
+          stake_e8s: 787500000000000
+          memo: 32
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: 64r27-dybyl-okym7-vhpgj-dasp4-jpywl-xafjr-l5b3v-odfoa-ya5al-dae #Brent:month 12 neuron
+          stake_e8s: 787500000000000
+          memo: 33
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: 64r27-dybyl-okym7-vhpgj-dasp4-jpywl-xafjr-l5b3v-odfoa-ya5al-dae #Brent:month 15 neuron
+          stake_e8s: 787500000000000
+          memo: 34
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: 64r27-dybyl-okym7-vhpgj-dasp4-jpywl-xafjr-l5b3v-odfoa-ya5al-dae #Brent:month 18 neuron
+          stake_e8s: 787500000000000
+          memo: 35
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: 64r27-dybyl-okym7-vhpgj-dasp4-jpywl-xafjr-l5b3v-odfoa-ya5al-dae #Brent:month 21 neuron
+          stake_e8s: 787500000000000
+          memo: 36
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: 64r27-dybyl-okym7-vhpgj-dasp4-jpywl-xafjr-l5b3v-odfoa-ya5al-dae #Brent:month 24 neuron
+          stake_e8s: 787500000000000
+          memo: 37
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: djvgx-nss3o-tt5mh-pjv4u-wcx5k-fnwif-gwcuh-2y7uc-ftfmo-fjmrq-4qe #Alex:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 38
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: djvgx-nss3o-tt5mh-pjv4u-wcx5k-fnwif-gwcuh-2y7uc-ftfmo-fjmrq-4qe #Alex:month 3 neuron
+          stake_e8s: 262500000000000
+          memo: 39
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: djvgx-nss3o-tt5mh-pjv4u-wcx5k-fnwif-gwcuh-2y7uc-ftfmo-fjmrq-4qe #Alex:month 6 neuron
+          stake_e8s: 262500000000000
+          memo: 40
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: djvgx-nss3o-tt5mh-pjv4u-wcx5k-fnwif-gwcuh-2y7uc-ftfmo-fjmrq-4qe #Alex:month 9 neuron
+          stake_e8s: 262500000000000
+          memo: 41
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: djvgx-nss3o-tt5mh-pjv4u-wcx5k-fnwif-gwcuh-2y7uc-ftfmo-fjmrq-4qe #Alex:month 12 neuron
+          stake_e8s: 262500000000000
+          memo: 42
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: djvgx-nss3o-tt5mh-pjv4u-wcx5k-fnwif-gwcuh-2y7uc-ftfmo-fjmrq-4qe #Alex:month 15 neuron
+          stake_e8s: 262500000000000
+          memo: 43
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: djvgx-nss3o-tt5mh-pjv4u-wcx5k-fnwif-gwcuh-2y7uc-ftfmo-fjmrq-4qe #Alex:month 18 neuron
+          stake_e8s: 262500000000000
+          memo: 44
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: djvgx-nss3o-tt5mh-pjv4u-wcx5k-fnwif-gwcuh-2y7uc-ftfmo-fjmrq-4qe #Alex:month 21 neuron
+          stake_e8s: 262500000000000
+          memo: 45
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: djvgx-nss3o-tt5mh-pjv4u-wcx5k-fnwif-gwcuh-2y7uc-ftfmo-fjmrq-4qe #Alex:month 24 neuron
+          stake_e8s: 262500000000000
+          memo: 46
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: vrryw-udlyt-exiug-jsdkj-2hfvq-gmnfp-vynlx-czumd-ckhld-cskt7-uqe #Herbert:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 47
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: vrryw-udlyt-exiug-jsdkj-2hfvq-gmnfp-vynlx-czumd-ckhld-cskt7-uqe #Herbert:month 3 neuron
+          stake_e8s: 125000000000000
+          memo: 48
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: vrryw-udlyt-exiug-jsdkj-2hfvq-gmnfp-vynlx-czumd-ckhld-cskt7-uqe #Herbert:month 6 neuron
+          stake_e8s: 125000000000000
+          memo: 49
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: vrryw-udlyt-exiug-jsdkj-2hfvq-gmnfp-vynlx-czumd-ckhld-cskt7-uqe #Herbert:month 9 neuron
+          stake_e8s: 125000000000000
+          memo: 50
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: vrryw-udlyt-exiug-jsdkj-2hfvq-gmnfp-vynlx-czumd-ckhld-cskt7-uqe #Herbert:month 12 neuron
+          stake_e8s: 125000000000000
+          memo: 51
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: vrryw-udlyt-exiug-jsdkj-2hfvq-gmnfp-vynlx-czumd-ckhld-cskt7-uqe #Herbert:month 15 neuron
+          stake_e8s: 125000000000000
+          memo: 52
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: vrryw-udlyt-exiug-jsdkj-2hfvq-gmnfp-vynlx-czumd-ckhld-cskt7-uqe #Herbert:month 18 neuron
+          stake_e8s: 125000000000000
+          memo: 53
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: vrryw-udlyt-exiug-jsdkj-2hfvq-gmnfp-vynlx-czumd-ckhld-cskt7-uqe #Herbert:month 21 neuron
+          stake_e8s: 125000000000000
+          memo: 54
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: vrryw-udlyt-exiug-jsdkj-2hfvq-gmnfp-vynlx-czumd-ckhld-cskt7-uqe #Herbert:month 24 neuron
+          stake_e8s: 125000000000000
+          memo: 55
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: 57efm-lftzk-fqeb5-mrdoi-h6fbp-baapx-r6tj5-rcvex-o3aek-zot7n-2qe #Eric:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 56
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: 57efm-lftzk-fqeb5-mrdoi-h6fbp-baapx-r6tj5-rcvex-o3aek-zot7n-2qe #Eric:month 3 neuron
+          stake_e8s: 90000000000000
+          memo: 57
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: 57efm-lftzk-fqeb5-mrdoi-h6fbp-baapx-r6tj5-rcvex-o3aek-zot7n-2qe #Eric:month 6 neuron
+          stake_e8s: 90000000000000
+          memo: 58
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: 57efm-lftzk-fqeb5-mrdoi-h6fbp-baapx-r6tj5-rcvex-o3aek-zot7n-2qe #Eric:month 9 neuron
+          stake_e8s: 90000000000000
+          memo: 59
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: 57efm-lftzk-fqeb5-mrdoi-h6fbp-baapx-r6tj5-rcvex-o3aek-zot7n-2qe #Eric:month 12 neuron
+          stake_e8s: 90000000000000
+          memo: 60
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: 57efm-lftzk-fqeb5-mrdoi-h6fbp-baapx-r6tj5-rcvex-o3aek-zot7n-2qe #Eric:month 15 neuron
+          stake_e8s: 90000000000000
+          memo: 61
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: 57efm-lftzk-fqeb5-mrdoi-h6fbp-baapx-r6tj5-rcvex-o3aek-zot7n-2qe #Eric:month 18 neuron
+          stake_e8s: 90000000000000
+          memo: 62
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: 57efm-lftzk-fqeb5-mrdoi-h6fbp-baapx-r6tj5-rcvex-o3aek-zot7n-2qe #Eric:month 21 neuron
+          stake_e8s: 90000000000000
+          memo: 63
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: 57efm-lftzk-fqeb5-mrdoi-h6fbp-baapx-r6tj5-rcvex-o3aek-zot7n-2qe #Eric:month 24 neuron
+          stake_e8s: 90000000000000
+          memo: 64
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: kof4t-kjtle-olvkn-wypjr-kexac-fvtqf-my6u6-ybylx-z3yk4-yoiwu-lqe #shawn:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 65
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: kof4t-kjtle-olvkn-wypjr-kexac-fvtqf-my6u6-ybylx-z3yk4-yoiwu-lqe #shawn:month 3 neuron
+          stake_e8s: 131250000000000
+          memo: 66
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: kof4t-kjtle-olvkn-wypjr-kexac-fvtqf-my6u6-ybylx-z3yk4-yoiwu-lqe #shawn:month 6 neuron
+          stake_e8s: 131250000000000
+          memo: 67
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: kof4t-kjtle-olvkn-wypjr-kexac-fvtqf-my6u6-ybylx-z3yk4-yoiwu-lqe #shawn:month 9 neuron
+          stake_e8s: 131250000000000
+          memo: 68
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: kof4t-kjtle-olvkn-wypjr-kexac-fvtqf-my6u6-ybylx-z3yk4-yoiwu-lqe #shawn:month 12 neuron
+          stake_e8s: 131250000000000
+          memo: 69
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: kof4t-kjtle-olvkn-wypjr-kexac-fvtqf-my6u6-ybylx-z3yk4-yoiwu-lqe #shawn:month 15 neuron
+          stake_e8s: 131250000000000
+          memo: 70
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: kof4t-kjtle-olvkn-wypjr-kexac-fvtqf-my6u6-ybylx-z3yk4-yoiwu-lqe #shawn:month 18 neuron
+          stake_e8s: 131250000000000
+          memo: 71
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: kof4t-kjtle-olvkn-wypjr-kexac-fvtqf-my6u6-ybylx-z3yk4-yoiwu-lqe #shawn:month 21 neuron
+          stake_e8s: 131250000000000
+          memo: 72
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: kof4t-kjtle-olvkn-wypjr-kexac-fvtqf-my6u6-ybylx-z3yk4-yoiwu-lqe #shawn:month 24 neuron
+          stake_e8s: 131250000000000
+          memo: 73
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: yvgf4-waqm3-ojfav-kgv2j-nxxck-gka5s-md4ot-e4ial-4kt5l-yke62-lae #Nina:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 74
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: yvgf4-waqm3-ojfav-kgv2j-nxxck-gka5s-md4ot-e4ial-4kt5l-yke62-lae #Nina:month 3 neuron
+          stake_e8s: 131250000000000
+          memo: 75
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: yvgf4-waqm3-ojfav-kgv2j-nxxck-gka5s-md4ot-e4ial-4kt5l-yke62-lae #Nina:month 6 neuron
+          stake_e8s: 131250000000000
+          memo: 76
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: yvgf4-waqm3-ojfav-kgv2j-nxxck-gka5s-md4ot-e4ial-4kt5l-yke62-lae #Nina:month 9 neuron
+          stake_e8s: 131250000000000
+          memo: 77
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: yvgf4-waqm3-ojfav-kgv2j-nxxck-gka5s-md4ot-e4ial-4kt5l-yke62-lae #Nina:month 12 neuron
+          stake_e8s: 131250000000000
+          memo: 78
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: yvgf4-waqm3-ojfav-kgv2j-nxxck-gka5s-md4ot-e4ial-4kt5l-yke62-lae #Nina:month 15 neuron
+          stake_e8s: 131250000000000
+          memo: 79
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: yvgf4-waqm3-ojfav-kgv2j-nxxck-gka5s-md4ot-e4ial-4kt5l-yke62-lae #Nina:month 18 neuron
+          stake_e8s: 131250000000000
+          memo: 80
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: yvgf4-waqm3-ojfav-kgv2j-nxxck-gka5s-md4ot-e4ial-4kt5l-yke62-lae #Nina:month 21 neuron
+          stake_e8s: 131250000000000
+          memo: 81
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: yvgf4-waqm3-ojfav-kgv2j-nxxck-gka5s-md4ot-e4ial-4kt5l-yke62-lae #Nina:month 24 neuron
+          stake_e8s: 131250000000000
+          memo: 82
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: lxe5p-bmsgk-vej6y-6qo3x-nes7w-mdclk-7tazy-6u7ly-ec7sj-qw3oy-lqe #Chloe:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 83
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: lxe5p-bmsgk-vej6y-6qo3x-nes7w-mdclk-7tazy-6u7ly-ec7sj-qw3oy-lqe #Chloe:month 3 neuron
+          stake_e8s: 131250000000000
+          memo: 84
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: lxe5p-bmsgk-vej6y-6qo3x-nes7w-mdclk-7tazy-6u7ly-ec7sj-qw3oy-lqe #Chloe:month 6 neuron
+          stake_e8s: 131250000000000
+          memo: 85
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: lxe5p-bmsgk-vej6y-6qo3x-nes7w-mdclk-7tazy-6u7ly-ec7sj-qw3oy-lqe #Chloe:month 9 neuron
+          stake_e8s: 131250000000000
+          memo: 86
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: lxe5p-bmsgk-vej6y-6qo3x-nes7w-mdclk-7tazy-6u7ly-ec7sj-qw3oy-lqe #Chloe:month 12 neuron
+          stake_e8s: 131250000000000
+          memo: 87
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: lxe5p-bmsgk-vej6y-6qo3x-nes7w-mdclk-7tazy-6u7ly-ec7sj-qw3oy-lqe #Chloe:month 15 neuron
+          stake_e8s: 131250000000000
+          memo: 88
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: lxe5p-bmsgk-vej6y-6qo3x-nes7w-mdclk-7tazy-6u7ly-ec7sj-qw3oy-lqe #Chloe:month 18 neuron
+          stake_e8s: 131250000000000
+          memo: 89
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: lxe5p-bmsgk-vej6y-6qo3x-nes7w-mdclk-7tazy-6u7ly-ec7sj-qw3oy-lqe #Chloe:month 21 neuron
+          stake_e8s: 131250000000000
+          memo: 90
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: lxe5p-bmsgk-vej6y-6qo3x-nes7w-mdclk-7tazy-6u7ly-ec7sj-qw3oy-lqe #Chloe:month 24 neuron
+          stake_e8s: 131250000000000
+          memo: 91
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: hbuo3-fqpr4-mo2cd-jne3a-cgwxe-pj6iq-6lfc7-f6r3m-aurwx-p2qkh-aae #lazyeo:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 92
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: hbuo3-fqpr4-mo2cd-jne3a-cgwxe-pj6iq-6lfc7-f6r3m-aurwx-p2qkh-aae #lazyeo:month 3 neuron
+          stake_e8s: 52500000000000
+          memo: 93
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: hbuo3-fqpr4-mo2cd-jne3a-cgwxe-pj6iq-6lfc7-f6r3m-aurwx-p2qkh-aae #lazyeo:month 6 neuron
+          stake_e8s: 52500000000000
+          memo: 94
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: hbuo3-fqpr4-mo2cd-jne3a-cgwxe-pj6iq-6lfc7-f6r3m-aurwx-p2qkh-aae #lazyeo:month 9 neuron
+          stake_e8s: 52500000000000
+          memo: 95
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: hbuo3-fqpr4-mo2cd-jne3a-cgwxe-pj6iq-6lfc7-f6r3m-aurwx-p2qkh-aae #lazyeo:month 12 neuron
+          stake_e8s: 52500000000000
+          memo: 96
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: hbuo3-fqpr4-mo2cd-jne3a-cgwxe-pj6iq-6lfc7-f6r3m-aurwx-p2qkh-aae #lazyeo:month 15 neuron
+          stake_e8s: 52500000000000
+          memo: 97
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: hbuo3-fqpr4-mo2cd-jne3a-cgwxe-pj6iq-6lfc7-f6r3m-aurwx-p2qkh-aae #lazyeo:month 18 neuron
+          stake_e8s: 52500000000000
+          memo: 98
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: hbuo3-fqpr4-mo2cd-jne3a-cgwxe-pj6iq-6lfc7-f6r3m-aurwx-p2qkh-aae #lazyeo:month 21 neuron
+          stake_e8s: 52500000000000
+          memo: 99
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: hbuo3-fqpr4-mo2cd-jne3a-cgwxe-pj6iq-6lfc7-f6r3m-aurwx-p2qkh-aae #lazyeo:month 24 neuron
+          stake_e8s: 52500000000000
+          memo: 100
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: jjnez-nxqdz-xlajs-anptu-g7uyw-nunii-qk4nr-x7jge-vln43-nmvii-kqe #Jenny:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 101
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: jjnez-nxqdz-xlajs-anptu-g7uyw-nunii-qk4nr-x7jge-vln43-nmvii-kqe #Jenny:month 3 neuron
+          stake_e8s: 52500000000000
+          memo: 102
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: jjnez-nxqdz-xlajs-anptu-g7uyw-nunii-qk4nr-x7jge-vln43-nmvii-kqe #Jenny:month 6 neuron
+          stake_e8s: 52500000000000
+          memo: 103
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: jjnez-nxqdz-xlajs-anptu-g7uyw-nunii-qk4nr-x7jge-vln43-nmvii-kqe #Jenny:month 9 neuron
+          stake_e8s: 52500000000000
+          memo: 104
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: jjnez-nxqdz-xlajs-anptu-g7uyw-nunii-qk4nr-x7jge-vln43-nmvii-kqe #Jenny:month 12 neuron
+          stake_e8s: 52500000000000
+          memo: 105
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: jjnez-nxqdz-xlajs-anptu-g7uyw-nunii-qk4nr-x7jge-vln43-nmvii-kqe #Jenny:month 15 neuron
+          stake_e8s: 52500000000000
+          memo: 106
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: jjnez-nxqdz-xlajs-anptu-g7uyw-nunii-qk4nr-x7jge-vln43-nmvii-kqe #Jenny:month 18 neuron
+          stake_e8s: 52500000000000
+          memo: 107
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: jjnez-nxqdz-xlajs-anptu-g7uyw-nunii-qk4nr-x7jge-vln43-nmvii-kqe #Jenny:month 21 neuron
+          stake_e8s: 52500000000000
+          memo: 108
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: jjnez-nxqdz-xlajs-anptu-g7uyw-nunii-qk4nr-x7jge-vln43-nmvii-kqe #Jenny:month 24 neuron
+          stake_e8s: 52500000000000
+          memo: 109
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: rrork-vxn6x-c6nqs-fqzki-5cih5-vgzca-pmctk-rkl7m-mrxpl-vx6mi-4qe #Allen:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 110
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: rrork-vxn6x-c6nqs-fqzki-5cih5-vgzca-pmctk-rkl7m-mrxpl-vx6mi-4qe #Allen:month 3 neuron
+          stake_e8s: 25000000000000
+          memo: 111
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: rrork-vxn6x-c6nqs-fqzki-5cih5-vgzca-pmctk-rkl7m-mrxpl-vx6mi-4qe #Allen:month 6 neuron
+          stake_e8s: 25000000000000
+          memo: 112
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: rrork-vxn6x-c6nqs-fqzki-5cih5-vgzca-pmctk-rkl7m-mrxpl-vx6mi-4qe #Allen:month 9 neuron
+          stake_e8s: 25000000000000
+          memo: 113
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: rrork-vxn6x-c6nqs-fqzki-5cih5-vgzca-pmctk-rkl7m-mrxpl-vx6mi-4qe #Allen:month 12 neuron
+          stake_e8s: 25000000000000
+          memo: 114
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: rrork-vxn6x-c6nqs-fqzki-5cih5-vgzca-pmctk-rkl7m-mrxpl-vx6mi-4qe #Allen:month 15 neuron
+          stake_e8s: 25000000000000
+          memo: 115
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: rrork-vxn6x-c6nqs-fqzki-5cih5-vgzca-pmctk-rkl7m-mrxpl-vx6mi-4qe #Allen:month 18 neuron
+          stake_e8s: 25000000000000
+          memo: 116
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: rrork-vxn6x-c6nqs-fqzki-5cih5-vgzca-pmctk-rkl7m-mrxpl-vx6mi-4qe #Allen:month 21 neuron
+          stake_e8s: 25000000000000
+          memo: 117
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: rrork-vxn6x-c6nqs-fqzki-5cih5-vgzca-pmctk-rkl7m-mrxpl-vx6mi-4qe #Allen:month 24 neuron
+          stake_e8s: 25000000000000
+          memo: 118
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: 45jtx-imh65-ocd4n-kengk-wsdrk-7vnht-sidrs-77eoi-ehsah-7nnf6-bae #hu:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 119
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: 45jtx-imh65-ocd4n-kengk-wsdrk-7vnht-sidrs-77eoi-ehsah-7nnf6-bae #hu:month 3 neuron
+          stake_e8s: 6250000000000
+          memo: 120
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: 45jtx-imh65-ocd4n-kengk-wsdrk-7vnht-sidrs-77eoi-ehsah-7nnf6-bae #hu:month 6 neuron
+          stake_e8s: 6250000000000
+          memo: 121
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: 45jtx-imh65-ocd4n-kengk-wsdrk-7vnht-sidrs-77eoi-ehsah-7nnf6-bae #hu:month 9 neuron
+          stake_e8s: 6250000000000
+          memo: 122
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: 45jtx-imh65-ocd4n-kengk-wsdrk-7vnht-sidrs-77eoi-ehsah-7nnf6-bae #hu:month 12 neuron
+          stake_e8s: 6250000000000
+          memo: 123
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: 45jtx-imh65-ocd4n-kengk-wsdrk-7vnht-sidrs-77eoi-ehsah-7nnf6-bae #hu:month 15 neuron
+          stake_e8s: 6250000000000
+          memo: 124
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: 45jtx-imh65-ocd4n-kengk-wsdrk-7vnht-sidrs-77eoi-ehsah-7nnf6-bae #hu:month 18 neuron
+          stake_e8s: 6250000000000
+          memo: 125
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: 45jtx-imh65-ocd4n-kengk-wsdrk-7vnht-sidrs-77eoi-ehsah-7nnf6-bae #hu:month 21 neuron
+          stake_e8s: 6250000000000
+          memo: 126
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: 45jtx-imh65-ocd4n-kengk-wsdrk-7vnht-sidrs-77eoi-ehsah-7nnf6-bae #hu:month 24 neuron
+          stake_e8s: 6250000000000
+          memo: 127
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: dmkqr-cek4q-bhj3m-tu3jk-7xfc2-o6wcs-5prz7-v3i5l-tyudy-ycsoe-rae #wuhu:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 128
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: dmkqr-cek4q-bhj3m-tu3jk-7xfc2-o6wcs-5prz7-v3i5l-tyudy-ycsoe-rae #wuhu:month 3 neuron
+          stake_e8s: 6250000000000
+          memo: 129
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: dmkqr-cek4q-bhj3m-tu3jk-7xfc2-o6wcs-5prz7-v3i5l-tyudy-ycsoe-rae #wuhu:month 6 neuron
+          stake_e8s: 6250000000000
+          memo: 130
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: dmkqr-cek4q-bhj3m-tu3jk-7xfc2-o6wcs-5prz7-v3i5l-tyudy-ycsoe-rae #wuhu:month 9 neuron
+          stake_e8s: 6250000000000
+          memo: 131
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: dmkqr-cek4q-bhj3m-tu3jk-7xfc2-o6wcs-5prz7-v3i5l-tyudy-ycsoe-rae #wuhu:month 12 neuron
+          stake_e8s: 6250000000000
+          memo: 132
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: dmkqr-cek4q-bhj3m-tu3jk-7xfc2-o6wcs-5prz7-v3i5l-tyudy-ycsoe-rae #wuhu:month 15 neuron
+          stake_e8s: 6250000000000
+          memo: 133
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: dmkqr-cek4q-bhj3m-tu3jk-7xfc2-o6wcs-5prz7-v3i5l-tyudy-ycsoe-rae #wuhu:month 18 neuron
+          stake_e8s: 6250000000000
+          memo: 134
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: dmkqr-cek4q-bhj3m-tu3jk-7xfc2-o6wcs-5prz7-v3i5l-tyudy-ycsoe-rae #wuhu:month 21 neuron
+          stake_e8s: 6250000000000
+          memo: 135
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: dmkqr-cek4q-bhj3m-tu3jk-7xfc2-o6wcs-5prz7-v3i5l-tyudy-ycsoe-rae #wuhu:month 24 neuron
+          stake_e8s: 6250000000000
+          memo: 136
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: p7ayl-w53bb-tevzw-5fwge-nfshj-sffau-qmb5e-ox6zu-7wqs5-waaeq-hqe #mamama:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 137
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: p7ayl-w53bb-tevzw-5fwge-nfshj-sffau-qmb5e-ox6zu-7wqs5-waaeq-hqe #mamama:month 3 neuron
+          stake_e8s: 6250000000000
+          memo: 138
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: p7ayl-w53bb-tevzw-5fwge-nfshj-sffau-qmb5e-ox6zu-7wqs5-waaeq-hqe #mamama:month 6 neuron
+          stake_e8s: 6250000000000
+          memo: 139
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: p7ayl-w53bb-tevzw-5fwge-nfshj-sffau-qmb5e-ox6zu-7wqs5-waaeq-hqe #mamama:month 9 neuron
+          stake_e8s: 6250000000000
+          memo: 140
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: p7ayl-w53bb-tevzw-5fwge-nfshj-sffau-qmb5e-ox6zu-7wqs5-waaeq-hqe #mamama:month 12 neuron
+          stake_e8s: 6250000000000
+          memo: 141
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: p7ayl-w53bb-tevzw-5fwge-nfshj-sffau-qmb5e-ox6zu-7wqs5-waaeq-hqe #mamama:month 15 neuron
+          stake_e8s: 6250000000000
+          memo: 142
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: p7ayl-w53bb-tevzw-5fwge-nfshj-sffau-qmb5e-ox6zu-7wqs5-waaeq-hqe #mamama:month 18 neuron
+          stake_e8s: 6250000000000
+          memo: 143
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: p7ayl-w53bb-tevzw-5fwge-nfshj-sffau-qmb5e-ox6zu-7wqs5-waaeq-hqe #mamama:month 21 neuron
+          stake_e8s: 6250000000000
+          memo: 144
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: p7ayl-w53bb-tevzw-5fwge-nfshj-sffau-qmb5e-ox6zu-7wqs5-waaeq-hqe #mamama:month 24 neuron
+          stake_e8s: 6250000000000
+          memo: 145
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
+        - controller: hqvtj-lizli-x7xrn-rwyqq-5v5gf-3ygnp-p7n3t-xa52i-r6lis-wiuck-hqe #Daoist:personal beacon neuron
+          stake_e8s: 100000000
+          memo: 146
+          dissolve_delay_seconds: 31557600
+          vesting_period_seconds: 0
+
+        - controller: hqvtj-lizli-x7xrn-rwyqq-5v5gf-3ygnp-p7n3t-xa52i-r6lis-wiuck-hqe #Daoist:month 3 neuron
+          stake_e8s: 18750000000000
+          memo: 147
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: hqvtj-lizli-x7xrn-rwyqq-5v5gf-3ygnp-p7n3t-xa52i-r6lis-wiuck-hqe #Daoist:month 6 neuron
+          stake_e8s: 18750000000000
+          memo: 148
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: hqvtj-lizli-x7xrn-rwyqq-5v5gf-3ygnp-p7n3t-xa52i-r6lis-wiuck-hqe #Daoist:month 9 neuron
+          stake_e8s: 18750000000000
+          memo: 149
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: hqvtj-lizli-x7xrn-rwyqq-5v5gf-3ygnp-p7n3t-xa52i-r6lis-wiuck-hqe #Daoist:month 12 neuron
+          stake_e8s: 18750000000000
+          memo: 150
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: hqvtj-lizli-x7xrn-rwyqq-5v5gf-3ygnp-p7n3t-xa52i-r6lis-wiuck-hqe #Daoist:month 15 neuron
+          stake_e8s: 18750000000000
+          memo: 151
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 39447000
+
+        - controller: hqvtj-lizli-x7xrn-rwyqq-5v5gf-3ygnp-p7n3t-xa52i-r6lis-wiuck-hqe #Daoist:month 18 neuron
+          stake_e8s: 18750000000000
+          memo: 152
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 47336400
+
+        - controller: hqvtj-lizli-x7xrn-rwyqq-5v5gf-3ygnp-p7n3t-xa52i-r6lis-wiuck-hqe #Daoist:month 21 neuron
+          stake_e8s: 18750000000000
+          memo: 153
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 55225800
+
+        - controller: hqvtj-lizli-x7xrn-rwyqq-5v5gf-3ygnp-p7n3t-xa52i-r6lis-wiuck-hqe #Daoist:month 24 neuron
+          stake_e8s: 18750000000000
+          memo: 154
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 63115200
+
 
     airdrop_distribution: # 7% in total
-      airdrop_neurons: [
-         # TBD with neurons configuration
-      ]
+      airdrop_neurons: 
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 3 neuron
+          stake_e8s: 525000000000000
+          memo: 155
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 6 neuron
+          stake_e8s: 525000000000000
+          memo: 156
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 9 neuron
+          stake_e8s: 525000000000000
+          memo: 157
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 12 neuron
+          stake_e8s: 525000000000000
+          memo: 158
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: i7alc-4ieyc-v7ofx-nc6zn-ooe46-c2lub-bkgmc-2wzs2-r6lz3-jvgru-pae #advisor:month 3 neuron
+          stake_e8s: 525000000000000
+          memo: 159
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 7889400
+
+        - controller: i7alc-4ieyc-v7ofx-nc6zn-ooe46-c2lub-bkgmc-2wzs2-r6lz3-jvgru-pae #advisor:month 6 neuron
+          stake_e8s: 525000000000000
+          memo: 160
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 15778800
+
+        - controller: i7alc-4ieyc-v7ofx-nc6zn-ooe46-c2lub-bkgmc-2wzs2-r6lz3-jvgru-pae #advisor:month 9 neuron
+          stake_e8s: 525000000000000
+          memo: 161
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 23668200
+
+        - controller: i7alc-4ieyc-v7ofx-nc6zn-ooe46-c2lub-bkgmc-2wzs2-r6lz3-jvgru-pae #advisor:month 12 neuron
+          stake_e8s: 525000000000000
+          memo: 162
+          dissolve_delay_seconds: 2629800
+          vesting_period_seconds: 31557600
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 1 neuron
+          stake_e8s: 437500000000000
+          memo: 163
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 2629800
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 2 neuron
+          stake_e8s: 437500000000000
+          memo: 164
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 5259600
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 3 neuron
+          stake_e8s: 437500000000000
+          memo: 165
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 7889400
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 4 neuron
+          stake_e8s: 437500000000000
+          memo: 166
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 10519200
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 5 neuron
+          stake_e8s: 437500000000000
+          memo: 167
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 13149000
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 6 neuron
+          stake_e8s: 437500000000000
+          memo: 168
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 15778800
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 7 neuron
+          stake_e8s: 437500000000000
+          memo: 169
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 18408600
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 8 neuron
+          stake_e8s: 437500000000000
+          memo: 170
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 21038400
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 9 neuron
+          stake_e8s: 437500000000000
+          memo: 171
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 23668200
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 10 neuron
+          stake_e8s: 437500000000000
+          memo: 172
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 26298000
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 11 neuron
+          stake_e8s: 437500000000000
+          memo: 173
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 28927800
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 12 neuron
+          stake_e8s: 437500000000000
+          memo: 174
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 31557600
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 13 neuron
+          stake_e8s: 437500000000000
+          memo: 175
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 34187400
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 14 neuron
+          stake_e8s: 437500000000000
+          memo: 176
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 36817200
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 15 neuron
+          stake_e8s: 437500000000000
+          memo: 177
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 39447000
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 16 neuron
+          stake_e8s: 437500000000000
+          memo: 178
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 42076800
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 17 neuron
+          stake_e8s: 437500000000000
+          memo: 179
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 44706600
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 18 neuron
+          stake_e8s: 437500000000000
+          memo: 180
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 47336400
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 19 neuron
+          stake_e8s: 437500000000000
+          memo: 181
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 49966200
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 20 neuron
+          stake_e8s: 437500000000000
+          memo: 182
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 52596000
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 21 neuron
+          stake_e8s: 437500000000000
+          memo: 183
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 55225800
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 22 neuron
+          stake_e8s: 437500000000000
+          memo: 184
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 57855600
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 23 neuron
+          stake_e8s: 437500000000000
+          memo: 185
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 60485400
+
+        - controller: 2zcj5-i7uwf-z57fv-h2h2h-4sqfq-u4jp6-526d7-ukyiq-3kqep-j343w-zqe #airdrop:month 24 neuron
+          stake_e8s: 437500000000000
+          memo: 186
+          dissolve_delay_seconds: 7889400
+          vesting_period_seconds: 63115200
+      
 
