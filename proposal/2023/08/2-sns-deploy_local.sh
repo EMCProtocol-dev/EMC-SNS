@@ -1,0 +1,1 @@
+sns deploy --network local --init-config-file ./sns/sns_init_local.yaml --save-to "sns/sns_canister_ids_local.json"
