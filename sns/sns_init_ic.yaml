@@ -1175,31 +1175,31 @@ initial_token_distribution:
 
     airdrop_distribution: # 7% in total
       airdrop_neurons: 
-        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 3 neuron
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 1 neuron
           stake_e8s: 525000000000000
           memo: 155
           dissolve_delay_seconds: 2629800
           vesting_period_seconds: 2629800
 
-        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 6 neuron
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 2 neuron
           stake_e8s: 525000000000000
           memo: 156
           dissolve_delay_seconds: 2629800
           vesting_period_seconds: 5259600
 
-        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 9 neuron
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 3 neuron
           stake_e8s: 525000000000000
           memo: 157
           dissolve_delay_seconds: 2629800
           vesting_period_seconds: 7889400
 
-        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 12 neuron
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 4 neuron
           stake_e8s: 525000000000000
           memo: 158
           dissolve_delay_seconds: 2629800
           vesting_period_seconds: 10519200
 
-        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 3 neuron
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 5 neuron
           stake_e8s: 525000000000000
           memo: 159
           dissolve_delay_seconds: 2629800
@@ -1211,13 +1211,13 @@ initial_token_distribution:
           dissolve_delay_seconds: 2629800
           vesting_period_seconds: 15778800
 
-        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 9 neuron
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 7 neuron
           stake_e8s: 525000000000000
           memo: 161
           dissolve_delay_seconds: 2629800
           vesting_period_seconds: 18408600
 
-        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 12 neuron
+        - controller: cg7tj-3lqdz-rsbsa-p3h4r-vquh6-465cp-ojziy-g2e74-tcia3-gqccf-yqe #advisor:month 8 neuron
           stake_e8s: 525000000000000
           memo: 162
           dissolve_delay_seconds: 2629800
